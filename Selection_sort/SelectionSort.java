@@ -12,10 +12,7 @@ public class SelectionSort {
 
     static void selectionSort(int[] arr){
 
-        // int end = arr.length;
-
         for(int i=0; i<arr.length; i++){
-            // int[] sorted = Arrays.copyOfRange(arr, i, end);
             int min = min(arr, i);
             if(arr[min]!=arr[i]){
                 swap(arr, min, i);
