@@ -16,7 +16,7 @@ public class BubbleSort {
         int swap = 0;
         int j = arr.length-1;
         int i = 0;
-        int temp = 0;
+        // int temp = 0;
         do{
             swap = 0;
             i=0;
